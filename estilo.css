@@ -1,0 +1,35 @@
+body{
+    background-color: #efefbb;
+    color: azure;
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgb(197,230,236), rgb(239,187,220));
+}
+
+.container{
+    padding: 40px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 54px;
+}
+
+.pokedex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+}
+
+.cartao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+    border: 50px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
